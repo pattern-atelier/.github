@@ -1,0 +1,54 @@
+name: "🐛 バグ報告"
+description: "バグを報告してください"
+title: "[Bug] "
+labels: ["bug", "triage"]
+type: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        このテンプレートを使用してバグを報告してください。
+  
+  - type: input
+    id: version
+    attributes:
+      label: バージョン
+      description: 使用しているバージョンを入力してください
+      placeholder: "例: 1.0.2"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: 説明
+      description: バグの内容を詳しく説明してください
+      placeholder: "バグが発生した状況を説明してください"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 再現手順
+      description: バグを再現するための手順を記入してください
+      placeholder: |
+        1. ...
+        2. ...
+        3. バグが発生
+    validations:
+      required: true
+  
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期待される動作
+      description: 本来の正しい動作を説明してください
+    validations:
+      required: true
+  
+  - type: upload
+    id: screenshots
+    attributes:
+      label: スクリーンショット
+      description: 該当する場合は、スクリーンショットを添付してください
