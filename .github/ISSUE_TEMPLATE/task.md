@@ -1,7 +1,7 @@
 ---
 name: Task
 about: 作業タスクのテンプレート
-title: "[TASK] "
+title: "[YYYY-MM-DD] "
 labels: enhancement
 assignees: kyoichikido
 ---
