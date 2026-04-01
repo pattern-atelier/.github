@@ -1,0 +1,17 @@
+---
+name: Task
+about: 作業タスクのテンプレート
+title: "[TASK] "
+labels: enhancement
+assignees: kyoichikido
+---
+
+## 概要
+## ゴール / 完了定義
+- [ ] 
+- [ ] 
+
+## 関連資料（Figma / 参考URL）
+- 
+
+## メモ
