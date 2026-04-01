@@ -1,0 +1,19 @@
+name: Auto Add to Project
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-to-project:
+    name: Add issue to project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get project data
+        # GitHub公式のアクションを使用して、Issueをプロジェクトに追加します
+        uses: actions/add-to-project@v1.0.2
+        with:
+          # プロジェクトが属する組織名
+          project-url: https://github.com/orgs/pattern-atelier/projects/1
+          # GitHubが標準で用意しているトークン（設定不要で使用可能）
+          github-token: ${{ secrets.GITHUB_TOKEN }}
