@@ -1,7 +1,7 @@
 ---
 name: Web Modify Task
 about: 提出・納品後の修正タスクのテンプレート
-title: "📅[YYYY-MM-DD] "
+title: "🖊️[YYYY-MM-DD] "
 labels: bug
 assignees: kyoichikido
 ---
