@@ -1,7 +1,7 @@
 ---
 name: Front-End Development
 about: サイトローンチに向けた開発
-title: "👨‍💻[YYYY-MM-DD　up] "
+title: "👨‍💻[YYYY-MM-DD up] 案件名: タスク内容"
 labels: for lauch
 assignees: kyoichikido
 ---
