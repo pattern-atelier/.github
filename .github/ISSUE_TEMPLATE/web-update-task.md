@@ -1,7 +1,7 @@
 ---
 name: Web Update Task
 about: 作業タスクのテンプレート
-title: "📅[YYYY-MM-DD] "
+title: "📅[YYYY-MM-DD] 案件名: タスク内容"
 labels: enhancement
 assignees: kyoichikido
 ---
