@@ -1,7 +1,7 @@
 ---
 name: Web Design
 about: Webデザイン制作
-title: "🎨[YYYY-MM-DD] 案件名: タスク内容"
+title: "🎨 案件名: タスク内容"
 labels: webdesign
 assignees: kyoichikido
 ---
