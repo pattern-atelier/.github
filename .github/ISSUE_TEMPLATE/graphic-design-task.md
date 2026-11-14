@@ -1,7 +1,7 @@
 ---
 name: Graphic Design
 about: グラフィックデザイン制作
-title: "🎨[YYYY-MM-DD] 案件名: タスク内容"
+title: "🎨 案件名: タスク内容"
 labels: graphicdesign
 assignees: kyoichikido
 ---
